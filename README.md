@@ -12,4 +12,5 @@ Then you may set to use the proxy, for example via:
 
     $ curl --proxy http://localhost:3128/ example.com
 
-Customize settings in `/etc/squid/squid.conf`.
+Customize settings in `/etc/squid/squid.conf`. For example on Kubernetes you
+probably want to set `dns_defnames on`.
